@@ -330,7 +330,7 @@ def mainMenu():
         print("# 1. Agregar paises                                                        #")
         print("# 2. Actualizar los datos de Población y Superfice de un Pais              #")
         print("# 3. Buscar un país por nombre (coincidencia parcial o exacta).            #")
-        print("# 4. Filtrar países (continente, rango de oblacion, rango de superficie)   #")
+        print("# 4. Filtrar países (continente, rango de poblacion, rango de superficie)   #")
         print("# 5. Ordenar países (nombre, poblacion, superficie)                        #")
         print("# 6. Mostrar estadisticas                                                  #")
         print("# 7. Mostrar todos los paises                                              #")
