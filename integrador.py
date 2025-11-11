@@ -203,15 +203,20 @@ def getOrderSettings():
         print("No hay paises cargados para ordenar.")
         return None, None
 
-    print("Seleccione el orden:")
-    print("1) Ascendente")
-    print("2) Descendente")
-    option = input("Ingrese una opcion (1-2): ").strip()
+    while True:
+        print("Seleccione el orden:")
+        print("1) Ascendente")
+        print("2) Descendente")
+        option = input("Ingrese una opcion (1-2): ").strip()
 
-    if option == "2":
-        reverseOrder = True
-    else:
-        reverseOrder = False
+        if option == "2":
+            reverseOrder = True
+            break
+        elif option == "1":
+            reverseOrder = False
+            break
+        else:
+            print("Opcion invalida. Por favor ingrese 1 o 2.")
 
     return countries, reverseOrder
 
